@@ -29,5 +29,5 @@ jobs:
       with: 
         image: nenawatts/test1.0:latest 
         registry: docker.io 
-username: ${{ secrets.DOCKER_USERNAME }} 
-password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ secrets.DOCKER_USERNAME }} 
+        password: ${{ secrets.DOCKER_PASSWORD }}
